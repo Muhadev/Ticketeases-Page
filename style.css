@@ -12,13 +12,16 @@ body {
 }
 
 .first {
-    background-color: #283593; /* Dark blue color code */
+    background-image: url('static/images/archieved.jpg');
     color: #ffffff;
     background-size: cover;
     background-position: center;
     padding-top: 100px; /* Adjust top padding to increase height */
     padding-bottom: 100px; /* Adjust bottom padding to increase height */
-    
+}
+.first .container {
+    background-color: rgba(0, 0, 0, 0.8); /* Replace with your desired background color and opacity */
+    padding: 20px; /* Adjust padding as needed */
 }
 .events {
     /* background-image: url('path/to/your/image.jpg');  */
@@ -90,6 +93,7 @@ body {
     background-image: url('static/images/used.jpg'); /* Replace 'path_to_your_image.jpg' with the path to your image */
     background-size: cover;
     background-position: center;
+    background-size: contain;
     color: white;
 }
 
